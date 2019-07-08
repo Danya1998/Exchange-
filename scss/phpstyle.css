@@ -1,0 +1,25 @@
+.container, footer{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	h1{
+		text-align: center;
+	}
+	input{
+		height: 30px;
+		width: 300px;
+		border: 0;
+		padding:0;
+	}
+	.input{
+		border-bottom: 1px solid black;
+	}
+	.input:active{
+		border-bottom: 1px solid blue;
+	}
+	.choose{
+		margin:30px 0;
+		font-weight: bolder;
+	}
